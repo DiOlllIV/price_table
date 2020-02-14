@@ -15,7 +15,7 @@ html {
 .price-tablets {
     display: flex;
     justify-content: center;
-    padding: 56px;
+    padding: 60px;
 }
 
 .price-card {
@@ -99,7 +99,7 @@ html {
         margin-bottom: 42px;
         margin-top: 37px;
         border-radius: 20px;
-        font-size: 14px;
+        font-size: 15px;
         line-height: 17px;
         text-transform: uppercase;
         color: #FFFFFF;
@@ -112,8 +112,6 @@ html {
         align-items: center;
         right: -30px;
         top: 31px;
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
         width: 147px;
         height: 25px;
         clip-path: polygon(17% 0%, 100% 0%, 83% 0, 100% 98%, 100% 100%, 0 100%, 0 74%, 0 98%);
