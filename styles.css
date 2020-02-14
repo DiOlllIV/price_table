@@ -71,21 +71,21 @@ html {
   text-align: center;
   color: #FFFFFF;
 }
-.price-card__option-list {
+.price-card__options-list {
   display: flex;
   flex-direction: column;
 }
-.price-card__option-list__variables {
+.price-card__options-list__variables {
   display: flex;
   padding: 16px 22px;
 }
-.price-card__option-list__variables:nth-child(odd) {
+.price-card__options-list__variables:nth-child(odd) {
   background-color: #2A3438;
 }
-.price-card__option-list__icon {
+.price-card__options-list__icon {
   margin-right: 22px;
 }
-.price-card__option-list__title {
+.price-card__options-list__title {
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
