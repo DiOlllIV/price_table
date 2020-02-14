@@ -15,7 +15,7 @@ html {
 .price-tablets {
   display: flex;
   justify-content: center;
-  padding: 112px;
+  padding: 56px;
 }
 
 .price-card {
