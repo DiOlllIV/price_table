@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Montserrat;
+}
+
+.page {
+  background-color: #000000;
+  width: 100%;
+  height: 100%;
+}
+
+.price-tablets {
+  display: flex;
+  padding: 112px 118px;
+  justify-content: center;
+}
+
+.price-card {
+  position: relative;
+  max-width: 380px;
+  margin: 15px;
+  background: #334247;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+}
+.price-card__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 140px 36px;
+}
+.price-card__title-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.price-card__title-subtitle {
+  font-size: 16px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.price-card__price {
+  height: 104px;
+  padding: 18px 0;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 67px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.price-card__basic {
+  background-color: #5BB189;
+}
+.price-card__business {
+  background-color: #3A6BA5;
+}
+.price-card__webshop {
+  background-color: #EC632A;
+}
+.price-card__description {
+  display: flex;
+  padding: 39px 26px 42px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.price-card__option-list {
+  display: flex;
+  flex-direction: column;
+}
+.price-card__option-list__variables {
+  display: flex;
+  padding: 16px 22px;
+}
+.price-card__option-list__variables:nth-child(odd) {
+  background-color: #2A3438;
+}
+.price-card__option-list__icon {
+  margin-right: 22px;
+}
+.price-card__option-list__title {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+.price-card__order-btn {
+  display: flex;
+  justify-content: center;
+  width: 155px;
+  height: 40px;
+  margin: auto;
+  margin-bottom: 42px;
+  margin-top: 37px;
+  border-radius: 20px;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+}
+.price-card__popular {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: -30px;
+  top: 31px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  width: 147px;
+  height: 25px;
+  clip-path: polygon(17% 0%, 100% 0%, 83% 0, 100% 98%, 100% 100%, 0 100%, 0 74%, 0 98%);
+  background-color: #DC3F45;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transform: rotate(45deg);
+}
+
+/*# sourceMappingURL=styles.css.map */
