@@ -63,7 +63,7 @@ html {
     }
     &__description {
         display: flex;
-        margin: 39px 26px 42px;
+        padding: 39px 26px 42px;
         font-weight: 300;
         font-size: 15px;
         line-height: 18px;
@@ -124,5 +124,8 @@ html {
         text-transform: uppercase;
         color: #FFFFFF;
         transform: rotate(45deg);
+    }
+    &:last-child {
+        margin-right: 0;
     }
 }
